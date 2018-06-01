@@ -22,21 +22,21 @@
 			<div class="row">
 				<div class="col-md-4">
 				<label for="tempo">Tempo da divida (meses)</label>
-				<input class="form-control" type="tex" name="tempo" id="tempo"/>
+				<input class="form-control" type="tex" name="tempo" id="tempo" required/>
 			</div>
 			<div class="col-md-4">
 				<label for="tempo">Valor (real)</label>
-				<input class="form-control" type="tex" name="valor" id="valor"/>
+				<input class="form-control" type="tex" name="valor" id="valor" required/>
 			</div>
 			<div class="col-md-4">
 				<label for="tempo">Taxa</label>
-				<input class="form-control" type="tex" name="taxa" id="taxa"/>
+				<input class="form-control" type="tex" name="taxa" id="taxa" required/>
 			</div>
 			</div>
 			<br />
 			<div class="row">
 				<div class="col-md-4">
-				<input class="btn btn-lg btn-primary" value="Calcular" type="submit"/>
+                    <button onclick="Calculo()" class="btn btn-lg btn-primary">Calcular</button>
 				</div>
 			</div>
 			</div>
